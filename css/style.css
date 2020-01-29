@@ -1,0 +1,85 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Libre Baskerville', serif;
+*/
+body
+{
+    background-color: #c8c8c8;
+    padding-left: 150px;
+    padding-right: 150px;
+    color:  rgb(49, 49, 49);
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3
+{
+    font-family: 'Libre Baskerville', serif;
+}
+h1
+{
+    text-align: center; 
+    font-weight: bolder;
+    font-size: 50px;
+}
+h2
+{
+    color: red;
+    font-weight: bolder;
+    text-align: left;
+}
+a
+{
+    color: red;
+    font-weight: bolder;
+}
+table 
+{ 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+th
+{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+tr:nth-child(even) 
+{
+    background:  none;
+}
+tr:nth-child(odd) 
+{
+    background: #dddddd;
+}
+tr:hover
+{
+    background-color: #999999;
+    cursor: pointer;
+}
+.photo
+{  
+    border: red solid 2px;
+    border-radius: 10px;
+    background-color: #333333;  
+    color: white;
+    margin-top: 20px;
+}
+.photo img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+img 
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.paragraphe
+{
+    border: #4e41ae dashed 2px;
+    color:#4e41ae;
+    background-color: #b7b7b7;
+    margin: 40px;
+}
+.paragraphe:last-child
+{
+    padding: 5px 5px 10px 10px;
+}
