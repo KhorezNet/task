@@ -1,17 +1,29 @@
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Libre Baskerville', serif;
-*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto/Roboto-Bold.ttf')format('truetype'),
+         url('roboto/Roboto-Italic.ttf') format('truetype'),
+         url('roboto/Roboto-Regular.ttf') format('truetype');
+
+    }
+    @font-face {
+        font-family: 'Baskerville';
+        src: url('roboto/Baskerville-Bold.ttf')format('truetype'),
+             url('roboto/Baskerville-Italic.ttf') format('truetype'),
+             url('roboto/Baskerville-Regular.ttf') format('truetype');
+    
+        }
 body
 {
     background-color: #c8c8c8;
     padding-left: 150px;
     padding-right: 150px;
     color:  rgb(49, 49, 49);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    text-align: justify;
 }
 h1, h2, h3
 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Baskerville';
 }
 h1
 {
